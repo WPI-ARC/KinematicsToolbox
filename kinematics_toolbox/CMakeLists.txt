@@ -32,7 +32,7 @@ include_directories( include SYSTEM
   ${catkin_INCLUDE_DIRS}
 )
 
-add_definitions( "-Wall -Wextra -Wpedantic -Wconversion -Werror -std=c++0x -O3 -g" )
+add_definitions( "-Wall -Wextra -Wconversion -Werror -std=c++0x -O3 -g" )
 
 #######################
 ## Build - Libraries ##
